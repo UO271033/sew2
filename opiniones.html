@@ -21,25 +21,27 @@
         Queremos saber qué opina la gente que visita la página sobre Steve Jobs, si tiene un rato libre, por favor, rellene
         el siguiente formulario anónimo.        
     </p>
-    <form name="encuesta">
+    <form name="encuesta" method="GET">
         <label for="puntuacion">Puntúa las aportaciones de Steve Jobs (del 0 al 10):</label>
         <input type="number" name="puntuacion" id="puntuacion" min=0 max=10><br>
-        <label>¿Cuál ha sido tu aportación favorita?: <input type="text"></label><br>
-        <label>¿Hay algún invento que no aparezca en la página que hayas echado de menos?: <input type="text"></label><br>
-        <label>¿Cuáles de los inventos has usado alguna vez</label><br>
-        <label><input type="checkbox" value="Apple I">Apple I</label><br>
-        <label><input type="checkbox" value="Apple II">Apple II</label><br>
-        <label><input type="checkbox" value="Apple Lisa">Apple Lisa</label><br>
-        <label><input type="checkbox" value="Macintosh">Macintosh</label><br>
-        <label><input type="checkbox" value="iMac">iMac</label><br>
-        <label><input type="checkbox" value="iPod">iPod</label><br>
-        <label><input type="checkbox" value="iTunes Store">iTunes Store</label><br>
-        <label><input type="checkbox" value="Apple TV">Apple TV</label><br>
-        <label><input type="checkbox" value="iPhone">iPhone</label><br>
-        <label><input type="checkbox" value="iPad">iPad</label><br>
-        <label>Aquí puedes escribir tu opinión sobre Steve Jobs<br>
-        <textarea cols="20" rows="10"></textarea></label>
-        <input type="button" value="Enviar">
+        <label for="aportacion">¿Cuál ha sido tu aportación favorita?: </label>
+        <input type="text" id="aportacion"><br>
+        <label for="invento">¿Hay algún invento que no aparezca en la página que hayas echado de menos?: </label>
+        <input type="text" id="invento"><br>
+        <label for="inventos">¿Cuáles de los inventos has usado alguna vez</label><br>
+        <input type="checkbox" id="inventos" value="Apple I">Apple I<br>
+        <input type="checkbox" id="inventos" value="Apple II">Apple II<br>
+        <input type="checkbox" id="inventos" value="Apple Lisa">Apple Lisa<br>
+        <input type="checkbox" id="inventos" value="Macintosh">Macintosh<br>
+        <input type="checkbox" id="inventos" value="iMac">iMac<br>
+        <input type="checkbox" id="inventos" value="iPod">iPod<br>
+        <input type="checkbox" id="inventos" value="iTunes Store">iTunes Store<br>
+        <input type="checkbox" id="inventos" value="Apple TV">Apple TV<br>
+        <input type="checkbox" id="inventos" value="iPhone">iPhone<br>
+        <input type="checkbox" id="inventos" value="iPad">iPad<br>
+        <label for="opinion">Aquí puedes escribir tu opinión sobre Steve Jobs</label><br>
+        <textarea cols="20" rows="10" id="opinion"></textarea>
+        <input type="submit" value="Enviar">
     </form>
     <footer>
         <img src="multimedia/HTML5.png" alt=" HTML5 Válido!" />
