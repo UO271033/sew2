@@ -16,12 +16,29 @@
     <header>
         <h1>Práctica 1 - Steve Jobs - Opiniones</h1>
     </header>
-    <img src="multimedia/SteveJobs.jpg" alt="Steve Jobs" />
     <p>
-        Steve Paul Jobs (San Francisco, 1955 - Palo Alto, California, 2011) fue un destacado informático
-        y empresario estadounidense. Fue creador del primer ordenador personal y fundador de Apple Computer,
-        una empresa innovadora en el sector de la informática.        
+        Queremos saber qué opina la gente que visita la página sobre Steve Jobs, si tiene un rato libre, por favor, rellene
+        el siguiente formulario anónimo.        
     </p>
+    <form name="encuesta">
+        <label>Puntúa las aportaciones de Steve Jobs (del 0 al 10): </label><input type="number" min=0 max=10><br>
+        <label>¿Cuál ha sido tu aportación favorita?: </label><input type="text"><br>
+        <label>¿Hay algún invento que no aparezca en la página que hayas echado de menos?: </label><input type="text"><br>
+        <label>¿Cuáles de los inventos has usado alguna vez</label><br>
+        <input type="checkbox" value="Apple I">Apple I<br>
+        <input type="checkbox" value="Apple II">Apple II<br>
+        <input type="checkbox" value="Apple Lisa">Apple Lisa<br>
+        <input type="checkbox" value="Macintosh">Macintosh<br>
+        <input type="checkbox" value="iMac">iMac<br>
+        <input type="checkbox" value="iPod">iPod<br>
+        <input type="checkbox" value="iTunes Store">iTunes Store<br>
+        <input type="checkbox" value="Apple TV">Apple TV<br>
+        <input type="checkbox" value="iPhone">iPhone<br>
+        <input type="checkbox" value="iPad">iPad<br>
+        <label>Aquí puedes escribir tu opinión sobre Steve Jobs</label><br>
+        <textarea cols="20" rows="10"></textarea>
+        <input type="button" value="Enviar">
+    </form>
     <footer>
         <img src="multimedia/HTML5.png" alt=" HTML5 Válido!" />
         <img src="multimedia/CSS3.png"  alt="CSS Válido!"  />
