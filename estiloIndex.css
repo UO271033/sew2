@@ -13,6 +13,7 @@ article {
     grid-template-columns: auto auto;
 }
 
+/*Especifidad: 001*/
 h2 {
     grid-column-start: 1;
     grid-column-end: 3;
