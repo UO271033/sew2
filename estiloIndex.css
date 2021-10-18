@@ -1,0 +1,21 @@
+/*Especifidad: 001*/
+main {
+    grid-area: main;
+    display: grid;
+    grid-template-areas:
+        "article aside";
+}
+
+/*Especifidad: 001*/
+article {
+    grid-area: article;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+h2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+

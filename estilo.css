@@ -1,20 +1,41 @@
 
 /*Especifidad: 001*/
 body {
+    color: white;
     background-color: blue;
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer";
+}
+
+/*Especifidad: 001*/
+main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+/*Especifidad: 001*/
+header {
+    grid-area: header;
 }
 
 /*Especifidad: 001*/
 nav{
     display: flex;
     background-color: white;
+    color: blue;
+    grid-area: nav;
 }
 
 /* Especifidad: 002*/
 nav > a {
     margin: auto;
     padding: 0.5em;
-    font-family: OCR A Std, monospace;
+    font-family: "OCR A Std", monospace;
 }
 
 /*Especifidad: 001*/
@@ -22,19 +43,64 @@ h1 {
     background-color: darkblue;
     color: white;
     text-align: center;
-    font-family: OCR A Std, monospace;
+    font-family: "OCR A Std", monospace;
     padding: 2em; 
     font-size: 3em;
 }
 
 /*Especifidad: 001*/
+h2 {
+    background-color: blue;
+    color: white;
+    font-family: "OCR A Std", monospace;
+}
+
+/*Especifidad: 001*/
+h3 {
+    background-color: blue;
+    color: white;
+    font-family: "OCR A Std", monospace;
+}
+
+/*Especifidad: 001*/
+h4 {
+    background-color: blue;
+    color: white;
+    font-family: "OCR A Std", monospace;
+}
+
+/*Especifidad: 001*/
 p {
     color: white;
-    font-family: OCR A Std, monospace;
+    background-color: blue;
+    font-family: "OCR A Std", monospace;
 }
 
 /*Especifidad: 001*/
 footer {
     background-color: darkblue;
+    color: white;
     padding: 2em;
+    grid-area: footer;
+}
+
+/*Especifidad: 001*/
+ol {
+    color: white;
+    background-color: blue;
+    font-family: "OCR A Std", monospace;
+}
+
+/*Especifidad: 001*/
+table {
+    color: white;
+    background-color: blue;
+    font-family: "OCR A Std", monospace;
+}
+
+/*Especifidad: 001*/
+form {
+    color: white;
+    background-color: blue;
+    font-family: "OCR A Std", monospace;
 }
