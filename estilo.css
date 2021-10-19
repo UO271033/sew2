@@ -19,6 +19,13 @@ main {
 }
 
 /*Especifidad: 001*/
+section {
+    padding: 2em;
+}
+
+
+
+/*Especifidad: 001*/
 header {
     grid-area: header;
 }
@@ -50,6 +57,7 @@ h1 {
 
 /*Especifidad: 001*/
 h2 {
+    padding-left: 2em;
     background-color: blue;
     color: white;
     font-family: "OCR A Std", monospace;
@@ -103,4 +111,23 @@ form {
     color: white;
     background-color: blue;
     font-family: "OCR A Std", monospace;
+}
+
+/*Especifidad: 001*/
+aside {
+    background-color: white;
+    color: blue;
+    font-family: "OCR A Std", monospace;
+}
+
+/*Especifidad: 001*/
+aside > h3 {
+    background-color: white;
+    color: blue;
+    font-size: 1.5em;
+}
+
+/*Especifidad: 002*/
+aside > ul {
+    font-size: 1.2em;
 }
