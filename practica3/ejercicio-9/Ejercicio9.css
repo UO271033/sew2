@@ -13,3 +13,8 @@ h1 {
     padding: 2em; 
     font-size: 3em;
 }
+
+/*Especifidad: 001*/
+button {
+    margin: 2em;
+}
