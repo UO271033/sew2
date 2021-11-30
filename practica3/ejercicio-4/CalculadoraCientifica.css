@@ -8,7 +8,7 @@ main {
 }
 
 /*Especifidad 003*/
-body > main > input {
+body > main > textarea {
     margin: 2em;
     grid-column-start: 1;
     grid-column-end: 6;
@@ -16,6 +16,7 @@ body > main > input {
     text-align: right;
     background-color: lightgreen;
     color: black;
+    resize: none;
 }
 
 /*Especifidad 001*/

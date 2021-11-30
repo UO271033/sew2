@@ -8,7 +8,7 @@ main {
 }
 
 /*Especifidad 003*/
-body > main > input {
+body > main > textarea:nth-child(1) {
     margin-left: 2em;
     margin-right: 2em;
     margin-top: 2em;
@@ -18,17 +18,11 @@ body > main > input {
     text-align: right;
     background-color: lightgreen;
     color: black;
+    resize: none;
 }
 
-/*Especifidad 001*/
-button {
-    padding: 1em;
-    margin: 0.5em;
-    background-color: lightgray;
-    color: black;
-}
 /*Especifidad 003*/
-body > main > textarea {
+body > main > textarea:nth-child(2) {
     margin-left: 2em;
     margin-right: 2em;
     margin-bottom: 2em;
@@ -37,6 +31,15 @@ body > main > textarea {
     padding: 1em;
     text-align: right;
     background-color: lightgreen;
+    color: black;
+    resize: none;
+}
+
+/*Especifidad 001*/
+button {
+    padding: 1em;
+    margin: 0.5em;
+    background-color: lightgray;
     color: black;
 }
 
