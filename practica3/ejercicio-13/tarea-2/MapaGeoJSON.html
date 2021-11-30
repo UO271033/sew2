@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Ejercicio 13 - Tarea 2</title>
+        <link rel="stylesheet" type="text/css" href="MapaGeoJSON.css" />
+        <script src="MapaGeoJSON.js"></script>
+        <script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
+        <link href='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css' rel='stylesheet' />
+    </head>
+    <body>
+        <header>
+            <h1>Ejercicio 13 - Tarea 2</h1>
+        </header>
+        <input type="file" id="files" onchange="mapaGeoJSON.cargarArchivos(this.files);">
+        <main id = "mapa"></main>
+    </body>
+</html>

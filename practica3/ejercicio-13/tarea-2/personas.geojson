@@ -1,0 +1,31 @@
+{
+"type": "FeatureCollection",
+"name": "Árbol genealógico",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Xurde coordenadas-nacimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.6772, 43.5294 ] } },
+{ "type": "Feature", "properties": { "Name": "Luis coordenadas-nacimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.6772, 43.5294 ] } },
+{ "type": "Feature", "properties": { "Name": "Luis coordenadas-nacimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -6.7408, 43.4769 ] } },
+{ "type": "Feature", "properties": { "Name": "Luis coordenadas-nacimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -6.7236, 43.5391 ] } },
+{ "type": "Feature", "properties": { "Name": "Luis coordenadas-fallecimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -6.7236, 43.5391 ] } },
+{ "type": "Feature", "properties": { "Name": "Beatriz coordenadas-nacimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -6.9436, 43.5691 ] } },
+{ "type": "Feature", "properties": { "Name": "Beatriz coordenadas-fallecimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -6.7236, 43.5391 ] } },
+{ "type": "Feature", "properties": { "Name": "Mercedes coordenadas-nacimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.7386, 43.1683 ] } },
+{ "type": "Feature", "properties": { "Name": "Mercedes coordenadas-fallecimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.6772, 43.5294 ] } },
+{ "type": "Feature", "properties": { "Name": "Carlos coordenadas-nacimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.6388, 43.2875 ] } },
+{ "type": "Feature", "properties": { "Name": "Carlos coordenadas-fallecimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.7666, 43.25 ] } },
+{ "type": "Feature", "properties": { "Name": "María José coordenadas-nacimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.7666, 43.25 ] } },
+{ "type": "Feature", "properties": { "Name": "María José coordenadas-fallecimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.7666, 43.25 ] } },
+{ "type": "Feature", "properties": { "Name": "Noelia coordenadas-nacimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.8502, 43.3625 ] } },
+{ "type": "Feature", "properties": { "Name": "Javier coordenadas-nacimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.8502, 43.3625 ] } },
+{ "type": "Feature", "properties": { "Name": "Ángel coordenadas-nacimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.9222, 43.5561 ] } },
+{ "type": "Feature", "properties": { "Name": "Ángel coordenadas-fallecimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.6772, 43.5294 ] } },
+{ "type": "Feature", "properties": { "Name": "Sara coordenadas-nacimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.8502, 43.3625 ] } },
+{ "type": "Feature", "properties": { "Name": "Sara coordenadas-fallecimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.6772, 43.5294 ] } },
+{ "type": "Feature", "properties": { "Name": "Felisa coordenadas-nacimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.7555, 41.5033 ] } },
+{ "type": "Feature", "properties": { "Name": "Ignacio coordenadas-nacimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -4.753, 43.4211 ] } },
+{ "type": "Feature", "properties": { "Name": "Ignacio coordenadas-fallecimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.8502, 43.3625 ] } },
+{ "type": "Feature", "properties": { "Name": "Marina coordenadas-nacimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.0666, 43.3144 ] } },
+{ "type": "Feature", "properties": { "Name": "Marina coordenadas-fallecimiento", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.8502, 43.3625 ] } }
+]
+}

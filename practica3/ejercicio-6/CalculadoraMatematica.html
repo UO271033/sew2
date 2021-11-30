@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Ejercicio 6</title>
+        <link rel="stylesheet" type="text/css" href="CalculadoraMatematica.css" />
+        <script src="CalculadoraRPN.js"></script>
+        <script src="CalculadoraMatematica.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Ejercicio 6 - Calculadora Matematica</h1>
+        </header>
+        <main>
+            <input type="text" id="pantalla" disabled />
+            <textarea id="numeros" disabled></textarea>
+
+            <button onClick="calculadora.limite()">límite</button> 
+            <button onClick="calculadora.derivar()">derivada</button>
+            <button onClick="calculadora.integrar()">integral</button>
+            <button onClick="calculadora.cero()">C</button>
+
+            <button onClick="calculadora.div()">/</button>
+            <button onClick="calculadora.pulsaNumero(7)">7</button>
+            <button onClick="calculadora.pulsaNumero(8)">8</button>
+            <button onClick="calculadora.pulsaNumero(9)">9</button>
+
+            <button onClick="calculadora.mul()">*</button>
+            <button onClick="calculadora.pulsaNumero(4)">4</button>
+            <button onClick="calculadora.pulsaNumero(5)">5</button>
+            <button onClick="calculadora.pulsaNumero(6)">6</button>
+
+            <button onClick="calculadora.resta()">-</button>
+            <button onClick="calculadora.pulsaNumero(1)">1</button>
+            <button onClick="calculadora.pulsaNumero(2)">2</button>
+            <button onClick="calculadora.pulsaNumero(3)">3</button>
+
+            <button onClick="calculadora.suma()">+</button>
+            <button onClick="calculadora.pulsaNumero(0)">0</button>
+            <button onClick="calculadora.punto()">.</button>
+            <button onClick="calculadora.enter()">Enter</button>  
+        </main>  
+    </body>
+</html>

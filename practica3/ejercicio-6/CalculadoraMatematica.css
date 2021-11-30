@@ -1,0 +1,41 @@
+/*Especifidad 001*/
+main {
+    display: grid;
+    background-color: darkblue;
+    color: black;
+    grid-template-columns: auto auto auto auto;
+    max-width: 25em;
+}
+
+/*Especifidad 003*/
+body > main > input {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    padding: 1em;
+    text-align: right;
+    background-color: lightgreen;
+    color: black;
+}
+
+/*Especifidad 001*/
+button {
+    padding: 1em;
+    margin: 0.5em;
+    background-color: lightgray;
+    color: black;
+}
+/*Especifidad 003*/
+body > main > textarea {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    padding: 1em;
+    text-align: right;
+    background-color: lightgreen;
+    color: black;
+}

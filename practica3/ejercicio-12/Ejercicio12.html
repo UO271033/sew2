@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Ejercicio 12</title>
+        <link rel="stylesheet" type="text/css" href="Ejercicio12.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="Ejercicio12.js"></script>
+    </head>
+    <body onload="fileReader.calcularTamañoArchivos();fileReader.compurebaApi();">
+        <header>
+            <h1>Ejercicio 12</h1>
+        </header>
+        
+        <input id="subirArchivos" type="file" name="Archivos" onchange="fileReader.calcularTamañoArchivos();" multiple>
+        <p>Archivos seleccionados: <span id="numero">0</span></p>
+        <p>Tamaño total: <span id="tamaño">0</span></p>
+        <span id="nombres"></span>
+        <input type="file" id="archivoTexto" onchange="fileReader.leerArchivoTexto(this.files);">
+ 
+        <p id="nombreArchivo"></p>
+        <p id="tamañoArchivo"></p>
+        <p id="tipoArchivo"></p>
+        <p id="ultimaModificacion"></p>
+        <p id="contenidoArchivo"></p>  
+        <pre id="areaTexto"></pre>
+        <p id="errorLectura"></p>
+    </body>
+</html>

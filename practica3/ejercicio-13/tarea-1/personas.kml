@@ -1,0 +1,149 @@
+<kml>
+<Document>
+<name>Árbol genealógico</name>
+<Placemark>
+	<name>Xurde coordenadas-nacimiento</name>
+	<Point>
+		<coordinates>-5.6772, 43.5294</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Luis coordenadas-nacimiento</name>
+	<Point>
+		<coordinates>-5.6772, 43.5294</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Luis coordenadas-nacimiento</name>
+	<Point>
+		<coordinates>-6.7408, 43.4769</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Luis coordenadas-nacimiento</name>
+	<Point>
+		<coordinates>-6.7236, 43.5391</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Luis coordenadas-fallecimiento</name>
+	<Point>
+		<coordinates>-6.7236, 43.5391</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Beatriz coordenadas-nacimiento</name>
+	<Point>
+		<coordinates>-6.9436, 43.5691</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Beatriz coordenadas-fallecimiento</name>
+	<Point>
+		<coordinates>-6.7236, 43.5391</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Mercedes coordenadas-nacimiento</name>
+	<Point>
+		<coordinates>-5.7386, 43.1683</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Mercedes coordenadas-fallecimiento</name>
+	<Point>
+		<coordinates>-5.6772, 43.5294</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Carlos coordenadas-nacimiento</name>
+	<Point>
+		<coordinates>-5.6388, 43.2875</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Carlos coordenadas-fallecimiento</name>
+	<Point>
+		<coordinates>-5.7666, 43.25</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>María José coordenadas-nacimiento</name>
+	<Point>
+		<coordinates>-5.7666, 43.25</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>María José coordenadas-fallecimiento</name>
+	<Point>
+		<coordinates>-5.7666, 43.25</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Noelia coordenadas-nacimiento</name>
+	<Point>
+		<coordinates>-5.8502, 43.3625</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Javier coordenadas-nacimiento</name>
+	<Point>
+		<coordinates>-5.8502, 43.3625</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Ángel coordenadas-nacimiento</name>
+	<Point>
+		<coordinates>-5.9222, 43.5561</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Ángel coordenadas-fallecimiento</name>
+	<Point>
+		<coordinates>-5.6772, 43.5294</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Sara coordenadas-nacimiento</name>
+	<Point>
+		<coordinates>-5.8502, 43.3625</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Sara coordenadas-fallecimiento</name>
+	<Point>
+		<coordinates>-5.6772, 43.5294</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Felisa coordenadas-nacimiento</name>
+	<Point>
+		<coordinates>-5.7555, 41.5033</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Ignacio coordenadas-nacimiento</name>
+	<Point>
+		<coordinates>-4.753, 43.4211</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Ignacio coordenadas-fallecimiento</name>
+	<Point>
+		<coordinates>-5.8502, 43.3625</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Marina coordenadas-nacimiento</name>
+	<Point>
+		<coordinates>-5.0666, 43.3144</coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>Marina coordenadas-fallecimiento</name>
+	<Point>
+		<coordinates>-5.8502, 43.3625</coordinates>
+	</Point>
+</Placemark>
+</Document>
+</kml>

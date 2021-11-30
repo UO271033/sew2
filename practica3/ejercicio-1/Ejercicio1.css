@@ -1,0 +1,30 @@
+/*Especifidad 001*/
+h1 {
+    font-family: "Blippo", fantasy;
+}
+
+/*Especifidad 001*/
+h2 {
+    font-family: "Apple Chancery", cursive;
+}
+
+/*Especifidad 001*/
+h3 {
+    font-family: "FreeMono", monospace;
+}  
+
+/*Especifidad 001*/
+h4 {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+/*Especifidad 001*/
+p {
+    font-family: "Georgia", serif;
+}
+
+/*Especifidad 001*/
+body {
+    background-color: aquamarine;
+    color: tomato;
+}

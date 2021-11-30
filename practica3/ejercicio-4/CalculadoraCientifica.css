@@ -1,0 +1,27 @@
+/*Especifidad 001*/
+main {
+    display: grid;
+    background-color: darkblue;
+    color: black;
+    grid-template-columns: auto auto auto auto auto;
+    max-width: 30em;
+}
+
+/*Especifidad 003*/
+body > main > input {
+    margin: 2em;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    padding: 1em;
+    text-align: right;
+    background-color: lightgreen;
+    color: black;
+}
+
+/*Especifidad 001*/
+button {
+    padding: 1em;
+    margin: 0.5em;
+    background-color: lightgray;
+    color: black;
+}

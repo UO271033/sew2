@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Ejercicio 5</title>
+        <link rel="stylesheet" type="text/css" href="CalculadoraRPN.css" />
+        <script src="CalculadoraRPN.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Ejercicio 5 - Calculadora RPN</h1>
+        </header>
+        <main>
+            <input type="text" id="pantalla" disabled />
+            <textarea id="numeros" disabled></textarea>
+
+            <button onClick="calculadora.sqrt()">&#x221A;</button> 
+            <button onClick="calculadora.sin()">sin</button>
+            <button onClick="calculadora.cos()">cos</button>
+            <button onClick="calculadora.tan()">tan</button>
+
+            <button onClick="calculadora.clear()">clear</button> 
+            <button onClick="calculadora.asin()">asin</button>
+            <button onClick="calculadora.acos()">acos</button>
+            <button onClick="calculadora.atan()">atan</button>
+
+            <button onClick="calculadora.div()">/</button>
+            <button onClick="calculadora.pulsaNumero(7)">7</button>
+            <button onClick="calculadora.pulsaNumero(8)">8</button>
+            <button onClick="calculadora.pulsaNumero(9)">9</button>
+
+            <button onClick="calculadora.mul()">*</button>
+            <button onClick="calculadora.pulsaNumero(4)">4</button>
+            <button onClick="calculadora.pulsaNumero(5)">5</button>
+            <button onClick="calculadora.pulsaNumero(6)">6</button>
+
+            <button onClick="calculadora.resta()">-</button>
+            <button onClick="calculadora.pulsaNumero(1)">1</button>
+            <button onClick="calculadora.pulsaNumero(2)">2</button>
+            <button onClick="calculadora.pulsaNumero(3)">3</button>
+
+            <button onClick="calculadora.suma()">+</button>
+            <button onClick="calculadora.pulsaNumero(0)">0</button>
+            <button onClick="calculadora.punto()">.</button>
+            <button onClick="calculadora.cero()">C</button> 
+
+            <button onClick="calculadora.enter()">Enter</button>  
+        </main>  
+    </body>
+</html>

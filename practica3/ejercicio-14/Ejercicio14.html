@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Ejercicio 14</title>
+        <link rel="stylesheet" type="text/css" href="Ejercicio14.css" />
+        
+    </head>
+    <body>
+        <header>
+            <h1>Ejercicio 14</h1>
+        </header>
+        <input type="file" id="archivo" onchange="multimedia.leerArchivo(this.files);">
+        <button onclick="multimedia.pantallaCompleta()">Pantalla completa</button>
+        <main id="image_drop_area" onload="multimedia.arrastraArchivo()">
+            <p>Arrastre aqui una imagen o un video</p>
+        </main>
+        <script src="Ejercicio14.js"></script>
+    </body>
+</html>
