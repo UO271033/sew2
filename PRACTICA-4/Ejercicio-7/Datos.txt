@@ -1,0 +1,25 @@
+Constructor:
+    - Nombre: Red Bull
+    - Puntos: 585
+
+    - Nombre: Mercedes
+    - Puntos: 615
+
+Piloto:
+    - Nombre: Verstappen
+    - Puntos: 395
+    - Constructor_id: 1
+
+    - Nombre: Hamilton
+    - Puntos: 387
+    - Constructor_id: 2
+
+Paddock:
+    - Nombre: Toto Wolff
+    - Funcion: Manager
+    - Constructor_id: 2
+
+Carreras:
+    - Nombre: Yas Marina
+    - Pais: Abu Dhabi
+    - Ganador_id: 1

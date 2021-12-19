@@ -1,0 +1,28 @@
+/*Especifidad 002*/
+body > form {
+    display: grid;
+    background-color: darkblue;
+    color: black;
+    grid-template-columns: auto auto auto auto;
+    max-width: 20em;
+}
+
+/*Especifidad 003*/
+body > form > textarea {
+    margin: 2em;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    padding: 1em;
+    text-align: right;
+    background-color: lightgreen;
+    color: black;
+    resize: none;
+}
+
+/*Especifidad 001*/
+button {
+    padding: 1em;
+    margin: 0.5em;
+    background-color: lightgray;
+    color: black;
+}

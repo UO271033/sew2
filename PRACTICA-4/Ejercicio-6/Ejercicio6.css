@@ -1,0 +1,35 @@
+
+/*Especifidad: 001*/
+body {
+    color: white;
+    background-color: blue;
+    font-family: "OCR A Std", monospace;
+}
+
+/*Especifidad: 001*/
+h1 {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 2em; 
+    font-size: 3em;
+}
+
+/*Especifidad: 001*/
+h2 {
+    padding-left: 2em;
+}
+
+/*Especifidad: 001*/
+nav{
+    display: flex;
+    background-color: white;
+    color: blue;
+}
+
+/* Especifidad: 002*/
+nav > a {
+    margin: auto;
+    padding: 0.5em;
+}
+
